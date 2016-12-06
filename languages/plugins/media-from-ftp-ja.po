@@ -1,0 +1,609 @@
+# Translation of Plugins - Media from FTP - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Media from FTP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-12 13:59:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Media from FTP - Stable (latest release)\n"
+
+#: req/MediaFromFtpAdmin.php:632
+msgid "Execution time for this server is fixed at %1$s. Please note the \"Number of items per page\" so as not to exceed this limit. Please use the %2$s if you do not want to be bound by this restriction."
+msgstr "このサーバーの実行時間は%1$sに固定されています。この制限を超えないように「ページごとに表示する項目数」に注意してください。この制限に縛られたくない場合は%2$sを使用してください。"
+
+#: req/MediaFromFtpAjax.php:105
+msgid "Succeeded to the registration of %1$d files."
+msgstr "%1$dファイルを登録しました。"
+
+#: req/MediaFromFtpAjax.php:102
+msgid "Errored to the registration of %1$d files."
+msgstr "%1$dファイルの登録にエラーが出ました。"
+
+#: req/MediaFromFtpAjax.php:67 req/MediaFromFtpCron.php:260
+msgid "This file could not be registered in the database."
+msgstr "このファイルはデータベースに登録できませんでした。"
+
+#: req/MediaFromFtpAdmin.php:294
+msgid "Unusual selection. Only the file name and output. It is suitable for the search of large amounts of data. It is hi speed."
+msgstr "一般的でない選択。ファイルネームのみ表示します。大量のデータの検索に適しています。高速です。"
+
+#: req/MediaFromFtpAdmin.php:290
+msgid "Usual selection. It is user-friendly. It displays a thumbnail and metadata. It is low speed."
+msgstr "通常の選択。ユーザーフレンドリーです。サムネイルとメタデータを表示します。低速です。"
+
+#: req/MediaFromFtpAdmin.php:287
+msgid "Display of search results"
+msgstr "検索結果の表示"
+
+#: req/MediaFromFtpAdmin.php:918
+msgid "Execution time for this server is fixed at %1$s. Please run the frequently \"Delete log\" and \"Export to CSV\" so as not to exceed this limit."
+msgstr "このサーバーの実行時間は%1$sです。 この制限を超えないように「履歴を削除」や「CSVにエクスポート」をこまめに実行してください。"
+
+#: req/MediaFromFtpAdmin.php:591 req/MediaFromFtpAdmin.php:594
+msgid "example:"
+msgstr "例："
+
+#: req/MediaFromFtpAdmin.php:229
+msgid "Execution time for this server is fixed at %1$s. Please note the \"Number of files to be registered\" or \"Number of items per page\" so as not to exceed this limit. Please use the %2$s if you do not want to be bound by this restriction."
+msgstr "このサーバーの実行時間は%1$sです。 この制限を超えないように「登録するファイル数」や「ページごとに表示する項目数」に注意してください。 この制限に縛られたくない場合は%2$sを使用してください。"
+
+#: req/MediaFromFtpAdmin.php:226 req/MediaFromFtpAdmin.php:629
+#: req/MediaFromFtpAdmin.php:916
+msgid "seconds"
+msgstr "秒"
+
+#: req/MediaFromFtpAdmin.php:579
+msgid "If you want to search for filename that contains such -0x0. It is low speed."
+msgstr "-0x0のようなファイル名を検索する場合に有効ですが、低速です。 "
+
+#: req/MediaFromFtpAdmin.php:380
+msgid "Unusual selection. if you want to search for filename that contains such -0x0. It is low speed."
+msgstr "一般的でない選択。-0x0のようなファイル名を検索する場合に有効ですが、低速です。"
+
+#: req/MediaFromFtpAdmin.php:376
+msgid "Usual selection. It is hi speed."
+msgstr "通常の選択。高速です。"
+
+#: req/MediaFromFtpAdmin.php:373
+msgid "Search method for the exclusion of the thumbnail"
+msgstr "サムネイルを除外する際の検索方法"
+
+#: req/MediaFromFtpAdmin.php:1075 req/MediaFromFtpAdmin.php:1082
+msgid "%s item"
+msgstr "%s個の項目"
+
+#: req/MediaFromFtpAdmin.php:1034
+msgid "There is no log."
+msgstr "履歴はありません。"
+
+#: req/MediaFromFtpAdmin.php:1019
+msgid "Download CSV"
+msgstr "CSVをダウンロード"
+
+#: req/MediaFromFtpAdmin.php:1010
+msgid "Export to CSV"
+msgstr "CSVにエクスポート"
+
+#: req/MediaFromFtpAdmin.php:1004
+msgid "Delete log"
+msgstr "履歴を削除"
+
+#: req/MediaFromFtpAdmin.php:959 req/MediaFromFtpAdmin.php:961
+msgid "Featured Image"
+msgstr "注目の画像"
+
+#: req/MediaFromFtpAdmin.php:959 req/MediaFromFtpAdmin.php:961
+msgid "Author"
+msgstr "登録者"
+
+#: req/MediaFromFtpAdmin.php:952
+msgid "%1$s do not have a possible deletion log."
+msgstr "%1$sが削除できる履歴はありません。"
+
+#: req/MediaFromFtpAdmin.php:950
+msgid "%1$s of the log has been deleted %2$d."
+msgstr "%1$sの履歴が%2$d個削除されました。"
+
+#: req/MediaFromFtpAdmin.php:946
+msgid "Removed all of the log."
+msgstr "全ての履歴が削除されました。"
+
+#: req/MediaFromFtpAdmin.php:911
+msgid "Current, log is not created. If you want to create a log, please put a check in the [Create log] in the settings."
+msgstr "現在、履歴は作成されていません。履歴を作成したい場合は、設定の「履歴を作成」にチェックを入れてください。"
+
+#: req/MediaFromFtpAdmin.php:573
+msgid "Create log to database."
+msgstr "データベースに履歴を作成。"
+
+#: req/MediaFromFtpAdmin.php:441
+msgid "Create log"
+msgstr "履歴を作成"
+
+#: req/MediaFromFtpAdmin.php:437
+msgid "Record the registration result."
+msgstr "登録結果を記録します。"
+
+#: req/MediaFromFtpAdmin.php:39 req/MediaFromFtpAdmin.php:75
+#: req/MediaFromFtpAdmin.php:76 req/MediaFromFtpAdmin.php:157
+#: req/MediaFromFtpAdmin.php:202 req/MediaFromFtpAdmin.php:435
+#: req/MediaFromFtpAdmin.php:663 req/MediaFromFtpAdmin.php:924
+msgid "Log"
+msgstr "履歴"
+
+#: req/MediaFromFtpAdmin.php:472
+msgid "Please [mediafromftpcmd.php] rewrite the following manner."
+msgstr "[mediafromftpcmd.php]を以下の様に書き換えてください。"
+
+#: req/MediaFromFtpAdmin.php:503
+msgid "The line %2$d from line %1$d."
+msgstr "%1$d行から%2$d行"
+
+#: req/MediaFromFtpAdmin.php:507
+msgid "The line %1$d."
+msgstr "%1$d行"
+
+#: inc/MediaFromFtp.php:714 req/MediaFromFtpCron.php:286
+msgid "Could not retrieve."
+msgstr "取得できませんでした。"
+
+#: req/MediaFromFtpAdmin.php:251
+msgid "If you do not use the filename or directory name of %1$s, please choose \"%2$s\"."
+msgstr "%1$sのファイル名を使用しない場合は、%2$sを選択してください。"
+
+#: req/MediaFromFtpAdmin.php:250
+msgid "variable-width encoding"
+msgstr "マルチバイト文字"
+
+#: req/MediaFromFtpAdmin.php:250
+msgid "https://en.wikipedia.org/wiki/Variable-width_encoding"
+msgstr "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%90%E3%82%A4%E3%83%88%E6%96%87%E5%AD%97"
+
+#: req/MediaFromFtpAdmin.php:165
+msgid "https://wordpress.org/plugins/media-from-ftp/faq"
+msgstr "https://ja.wordpress.org/plugins/media-from-ftp/faq"
+
+#: req/MediaFromFtpAdmin.php:835
+msgid "Descending"
+msgstr "降順"
+
+#: req/MediaFromFtpAdmin.php:831
+msgid "Ascending"
+msgstr "昇順"
+
+#: req/MediaFromFtpAdmin.php:655
+msgid "Search Results of <span style=\"color: red; font-weight: bold;\">%1$s</span>."
+msgstr "<span style=\"color: red; font-weight: bold;\">%1$s</span>の検索結果です。"
+
+#: req/MediaFromFtpAdmin.php:1115
+msgid "jump"
+msgstr "ジャンプ"
+
+#. Author URI of the plugin/theme
+msgid "http://riverforest-wp.info/"
+msgstr "http://riverforest-wp.info/ja/"
+
+#. Author of the plugin/theme
+msgid "Katsushi Kawamori"
+msgstr "Katsushi Kawamori"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/media-from-ftp/"
+msgstr "http://ja.wordpress.org/plugins/media-from-ftp/"
+
+#. Plugin Name of the plugin/theme
+msgid "Media from FTP"
+msgstr "Media from FTP"
+
+#: req/MediaFromFtpCron.php:278
+msgid "Count"
+msgstr "カウント"
+
+#: req/MediaFromFtpAdmin.php:1233
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: req/MediaFromFtpAdmin.php:1230
+msgid "Save failed."
+msgstr "保存に失敗しました。"
+
+#: req/MediaFromFtpAdmin.php:1230
+msgid "Incorrect value."
+msgstr "値が正しくありません。"
+
+#: req/MediaFromFtpAdmin.php:1222
+msgid "No Thumbnails Cache"
+msgstr "サムネイルのキャッシュはありません"
+
+#: req/MediaFromFtpAdmin.php:1220
+msgid "Delete"
+msgstr "消去"
+
+#: req/MediaFromFtpAdmin.php:1220
+msgid "Thumbnails Cache"
+msgstr "サムネイルのキャッシュ"
+
+#: req/MediaFromFtpAdmin.php:1215
+msgid "Changes saved."
+msgstr "変更は保存されました。"
+
+#: req/MediaFromFtpAdmin.php:1109
+msgid "Go to the last page"
+msgstr "最後のページに移動"
+
+#: req/MediaFromFtpAdmin.php:1108
+msgid "Go to the next page"
+msgstr "次のページに進む"
+
+#: req/MediaFromFtpAdmin.php:1101
+msgid "Go to the previous page"
+msgstr "前のページに戻る"
+
+#: req/MediaFromFtpAdmin.php:1100
+msgid "Go to the first page"
+msgstr "最初のページに戻る"
+
+#: inc/MediaFromFtp.php:721
+msgid "Images"
+msgstr "画像"
+
+#: inc/MediaFromFtp.php:712 req/MediaFromFtpAdmin.php:959
+#: req/MediaFromFtpAdmin.php:961 req/MediaFromFtpCron.php:284
+msgid "Date/Time"
+msgstr "日/時"
+
+#: inc/MediaFromFtp.php:707 req/MediaFromFtpAdmin.php:959
+#: req/MediaFromFtpAdmin.php:961 req/MediaFromFtpCron.php:281
+msgid "Permalink:"
+msgstr "パーマリンク"
+
+#: inc/MediaFromFtp.php:706 req/MediaFromFtpAdmin.php:959
+#: req/MediaFromFtpAdmin.php:961 req/MediaFromFtpAjax.php:67
+#: req/MediaFromFtpCron.php:258 req/MediaFromFtpCron.php:280
+msgid "Title"
+msgstr "タイトル"
+
+#: req/MediaFromFtpAjax.php:65 req/MediaFromFtpCron.php:256
+msgid "<div>You need to make this directory writable before you can register this file. See <a href=\"%1$s\" target=\"_blank\">the Codex</a> for more information.</div><div>Or, filename or directoryname must be changed of illegal. Please change Character Encodings for Server of <a href=\"%2$s\">Settings</a>.</div>"
+msgstr "<div>このファイルを登録するには事前にこのディレクトリを書き込み可能にする必要があります。詳しい情報は <a href=\"%1$s\" target=\"_blank\">Codex</a> を参照してください。<div>あるいは、ファイル名又はディレクトリ名が不正で変更する必要があるかもしれません。<a href=\"%2$s\">設定</a>のサーバーの文字エンコーディングを変更してください。</div>"
+
+#: req/MediaFromFtpAjax.php:65 req/MediaFromFtpCron.php:255
+msgid "Directory name:"
+msgstr "ディレクトリ名:"
+
+#: inc/MediaFromFtp.php:710 req/MediaFromFtpAdmin.php:959
+#: req/MediaFromFtpAdmin.php:961 req/MediaFromFtpAjax.php:65
+#: req/MediaFromFtpCron.php:254 req/MediaFromFtpCron.php:283
+msgid "File name:"
+msgstr "ファイル名:"
+
+#: req/MediaFromFtpAdmin.php:892
+msgid "These files is a file that is not registered in the media library. And can be registered."
+msgstr "これらのファイルは、メディアライブラリに登録されていないファイルです。そして登録が可能です。"
+
+#: req/MediaFromFtpAdmin.php:868
+msgid "There is no file that is not registered in the media library."
+msgstr "メディアライブラリに登録されていないファイルはありません。"
+
+#: inc/MediaFromFtp.php:428
+msgid "Edit date and time"
+msgstr "日時を編集"
+
+#: inc/MediaFromFtp.php:420 inc/MediaFromFtp.php:740
+#: req/MediaFromFtpAdmin.php:959 req/MediaFromFtpAdmin.php:961
+#: req/MediaFromFtpCron.php:310
+msgid "Length:"
+msgstr "長さ:"
+
+#: inc/MediaFromFtp.php:418 inc/MediaFromFtp.php:719
+#: req/MediaFromFtpAdmin.php:959 req/MediaFromFtpAdmin.php:961
+#: req/MediaFromFtpCron.php:291
+msgid "File size:"
+msgstr "ファイルサイズ:"
+
+#: req/MediaFromFtpAdmin.php:845 req/MediaFromFtpAdmin.php:874
+msgid "Metadata"
+msgstr "メタデータ"
+
+#: req/MediaFromFtpAdmin.php:845 req/MediaFromFtpAdmin.php:874
+msgid "Thumbnail"
+msgstr "サムネイルのサイズ"
+
+#: req/MediaFromFtpAdmin.php:845 req/MediaFromFtpAdmin.php:847
+#: req/MediaFromFtpAdmin.php:874 req/MediaFromFtpAdmin.php:876
+msgid "Select"
+msgstr "選択"
+
+#: req/MediaFromFtpAdmin.php:827 req/MediaFromFtpAdmin.php:881
+msgid "Select all"
+msgstr "全てを選択"
+
+#: req/MediaFromFtpAdmin.php:824 req/MediaFromFtpAdmin.php:887
+msgid "Update Media"
+msgstr "メディアを更新"
+
+#: req/MediaFromFtpAdmin.php:746
+msgid "Filter"
+msgstr "絞り込み検索"
+
+#: req/MediaFromFtpAdmin.php:725
+msgid "All extensions"
+msgstr "全ての拡張子"
+
+#: req/MediaFromFtpAdmin.php:713
+msgid "All types"
+msgstr "全てのタイプ"
+
+#: req/MediaFromFtpAdmin.php:709 req/MediaFromFtpAdmin.php:738
+msgid "Search"
+msgstr "検索"
+
+#: req/MediaFromFtpAdmin.php:702
+msgid "Save"
+msgstr "保存"
+
+#: req/MediaFromFtpAdmin.php:588
+msgid "Run every 10 minutes."
+msgstr "10分毎に実行します。"
+
+#: req/MediaFromFtpAdmin.php:588
+msgid "Register the command-line to the server cron."
+msgstr "サーバのcronへコマンドラインを登録"
+
+#: req/MediaFromFtpAdmin.php:585
+msgid "Command-line, please use by activate sure the plug-in."
+msgstr "コマンドラインは、必ずプラグインを有効化して使用してください。"
+
+#: req/MediaFromFtpAdmin.php:567
+msgid "Hides the display of the log."
+msgstr "履歴を表示しない。"
+
+#: req/MediaFromFtpAdmin.php:565
+msgid "command line switch"
+msgstr "コマンドラインスイッチ"
+
+#: req/MediaFromFtpAdmin.php:562
+msgid "If the argument is empty, use the set value of the management screen."
+msgstr "引数が空の場合は、管理画面の設定値が使用されます。"
+
+#: req/MediaFromFtpAdmin.php:557
+msgid "Exif tags for registering in the caption"
+msgstr "キャプションに登録するためのExifタグ"
+
+#: req/MediaFromFtpAdmin.php:545
+msgid "File extension"
+msgstr "ファイル拡張子"
+
+#: inc/MediaFromFtp.php:417 inc/MediaFromFtp.php:718
+#: req/MediaFromFtpAdmin.php:539 req/MediaFromFtpAdmin.php:959
+#: req/MediaFromFtpAdmin.php:961 req/MediaFromFtpCron.php:290
+msgid "File type:"
+msgstr "ファイルタイプ:"
+
+#: req/MediaFromFtpAdmin.php:527
+msgid "Date time settings"
+msgstr "日時の設定"
+
+#: req/MediaFromFtpAdmin.php:524 req/MediaFromFtpAdmin.php:530
+#: req/MediaFromFtpAdmin.php:536 req/MediaFromFtpAdmin.php:542
+#: req/MediaFromFtpAdmin.php:548 req/MediaFromFtpAdmin.php:554
+#: req/MediaFromFtpAdmin.php:560 req/MediaFromFtpAdmin.php:570
+#: req/MediaFromFtpAdmin.php:576 req/MediaFromFtpAdmin.php:582
+#: req/MediaFromFtpAdmin.php:588
+msgid "Example:"
+msgstr "例："
+
+#: req/MediaFromFtpAdmin.php:521
+msgid "Search directory"
+msgstr "検索ディレクトリ"
+
+#: req/MediaFromFtpAdmin.php:519
+msgid "command line argument list"
+msgstr "コマンドライン引数リスト"
+
+#: req/MediaFromFtpAdmin.php:517 req/MediaFromFtpAdmin.php:593
+#: req/MediaFromFtpAdmin.php:596
+msgid "Please check with the server administrator."
+msgstr "サーバー管理者に確認してください。"
+
+#: req/MediaFromFtpAdmin.php:513
+msgid "The execution of the command line."
+msgstr "コマンドラインでの実行"
+
+#: req/MediaFromFtpAdmin.php:455
+msgid "Save Changes"
+msgstr "変更の保存"
+
+#: req/MediaFromFtpAdmin.php:448
+msgid "Remove the cache of thumbnail used in the search screen. Please try out if trouble occurs in the search screen. It might become normal."
+msgstr "検索画面で使用されるサムネイルのキャッシュを削除します。トラブルが検索画面に発生した場合に試してみてください。正常になることがあります。"
+
+#: req/MediaFromFtpAdmin.php:446 req/MediaFromFtpAdmin.php:462
+msgid "Remove Thumbnails Cache"
+msgstr "サムネイルのキャッシュを削除"
+
+#: req/MediaFromFtpAdmin.php:430
+msgid "Your Email"
+msgstr "メールアドレス"
+
+#: req/MediaFromFtpAdmin.php:427
+msgid "Email me whenever"
+msgstr "自分宛のメール通知"
+
+#: req/MediaFromFtpAdmin.php:423 req/MediaFromFtpAdmin.php:701
+#: req/MediaFromFtpAdmin.php:1230 req/MediaFromFtpAdmin.php:1233
+msgid "Number of items per page:"
+msgstr "ページごとに表示する項目数:"
+
+#: req/MediaFromFtpAdmin.php:422 req/MediaFromFtpAdmin.php:551
+msgid "Limit number of update files"
+msgstr "更新ファイルの制限数"
+
+#: req/MediaFromFtpAdmin.php:419
+msgid "Apply limit number of update files."
+msgstr "更新ファイルの制限数を適用。"
+
+#: req/MediaFromFtpAdmin.php:415
+msgid "daily"
+msgstr "1日毎"
+
+#: req/MediaFromFtpAdmin.php:411
+msgid "twice daily"
+msgstr "１日２回"
+
+#: req/MediaFromFtpAdmin.php:407
+msgid "hourly"
+msgstr "1時間毎"
+
+#: req/MediaFromFtpAdmin.php:403
+msgid "Apply Schedule"
+msgstr "スケジュールを適用"
+
+#: req/MediaFromFtpAdmin.php:399
+msgid "Next Schedule:"
+msgstr "次のスケジュール:"
+
+#: req/MediaFromFtpAdmin.php:395
+msgid "None"
+msgstr "なし"
+
+#: req/MediaFromFtpAdmin.php:389
+msgid "Will take some time until the [Next Schedule] is reflected."
+msgstr "「次のスケジュール」が反映されるまでしばらく時間がかかります。"
+
+#: req/MediaFromFtpAdmin.php:388
+msgid "Set the schedule."
+msgstr "スケジュールを設定します。"
+
+#: req/MediaFromFtpAdmin.php:386
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: req/MediaFromFtpAdmin.php:367 req/MediaFromFtpAdmin.php:533
+msgid "Regular expression is possible."
+msgstr "正規表現が可能です。"
+
+#: req/MediaFromFtpAdmin.php:366 req/MediaFromFtpAdmin.php:533
+msgid "Exclude file"
+msgstr "除外ファイル"
+
+#: req/MediaFromFtpAdmin.php:360
+msgid "If you want to insert the Exif in the media that have already been registered in the media library, Please use the %1$s."
+msgstr "すでにメディアライブラリーに登録されているメディアにExifを挿入したい場合は、%1$sを使用して下さい。"
+
+#: req/MediaFromFtpAdmin.php:348
+msgid "For Exif tags, please read here."
+msgstr "Exif タグについては、こちらをお読みください。"
+
+#: req/MediaFromFtpAdmin.php:344
+msgid "Default"
+msgstr "デフォルト"
+
+#: req/MediaFromFtpAdmin.php:343
+msgid "Tags"
+msgstr "タグ"
+
+#: req/MediaFromFtpAdmin.php:340
+msgid "Apply"
+msgstr "適用"
+
+#: req/MediaFromFtpAdmin.php:336
+msgid "Register the Exif data to the caption."
+msgstr "キャプションへExif情報を登録します。"
+
+#: inc/MediaFromFtp.php:734 req/MediaFromFtpAdmin.php:334
+#: req/MediaFromFtpAdmin.php:959 req/MediaFromFtpAdmin.php:961
+#: req/MediaFromFtpCron.php:304
+msgid "Caption"
+msgstr "キャプション"
+
+#: req/MediaFromFtpAdmin.php:328
+msgid "Organize my uploads into month- and year-based folders"
+msgstr "アップロードしたファイルを年月ベースのフォルダに整理"
+
+#: req/MediaFromFtpAdmin.php:313
+msgid "Get by priority if there is date and time of the Exif information."
+msgstr "Exif情報の日時がある場合に優先的に取得する。"
+
+#: req/MediaFromFtpAdmin.php:307 req/MediaFromFtpAdmin.php:312
+msgid "Get the date/time of the file, and updated based on it. Change it if necessary."
+msgstr "ファイルの日時を取得し、それに基づいて更新。必要に応じて変更。"
+
+#: req/MediaFromFtpAdmin.php:303
+msgid "Update to use of the current date/time."
+msgstr "現在の日時で更新"
+
+#: req/MediaFromFtpAdmin.php:300
+msgid "Date"
+msgstr "日時"
+
+#: req/MediaFromFtpAdmin.php:249
+msgid "It may fail to register if you are using a multi-byte name in the file name or folder name. In that case, please change."
+msgstr "ファイル名やディレクトリ名にマルチバイト名を使用している場合に登録に失敗する場合があります。その場合に、変更してください。"
+
+#: req/MediaFromFtpAdmin.php:247
+msgid "Character Encodings for Server"
+msgstr "サーバーの文字エンコーディング"
+
+#: req/MediaFromFtpAdmin.php:233
+msgid "The max_execution_time value defined in the php.ini."
+msgstr "php.iniで定義されたmax_execution_timeの値。"
+
+#: req/MediaFromFtpAdmin.php:233
+msgid "The number of seconds a script is allowed to run."
+msgstr "スクリプトが実行可能な秒数。"
+
+#: req/MediaFromFtpAdmin.php:221
+msgid "Execution time"
+msgstr "実行時間"
+
+#: req/MediaFromFtpAdmin.php:213 req/MediaFromFtpAdmin.php:227
+#: req/MediaFromFtpAdmin.php:470 req/MediaFromFtpAdmin.php:630
+msgid "Command-line"
+msgstr "コマンドライン"
+
+#: req/MediaFromFtpAdmin.php:170
+msgid "Please make a donation if you like my work or would like to further the development of this plugin."
+msgstr "私はプラグインの開発とサポートを継続させるために寄付を必要としています。"
+
+#: req/MediaFromFtpAdmin.php:166
+msgid "Reviews"
+msgstr "レビュー"
+
+#: req/MediaFromFtpAdmin.php:165
+msgid "Support Forums"
+msgstr "サポートフォーラム"
+
+#. #-#-#-#-#  tmp-media-from-ftp.pot (Media from FTP 9.31)  #-#-#-#-#
+#. Description of the plugin/theme
+#: req/MediaFromFtpAdmin.php:162
+msgid "Register to media library from files that have been uploaded by FTP."
+msgstr "FTPでアップロードされたファイルからメディアライブラリに登録します。"
+
+#: req/MediaFromFtpAdmin.php:142
+msgid "Version:"
+msgstr "バージョン："
+
+#: req/MediaFromFtpAdmin.php:138 req/MediaFromFtpAdmin.php:186
+#: req/MediaFromFtpAdmin.php:612 req/MediaFromFtpAdmin.php:906
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスするために、十分なアクセンセス権利を持っていません。"
+
+#: req/MediaFromFtpAdmin.php:38 req/MediaFromFtpAdmin.php:67
+#: req/MediaFromFtpAdmin.php:68 req/MediaFromFtpAdmin.php:154
+#: req/MediaFromFtpAdmin.php:205 req/MediaFromFtpAdmin.php:661
+#: req/MediaFromFtpAdmin.php:926
+msgid "Search & Register"
+msgstr "検索＆登録"
+
+#: req/MediaFromFtpAdmin.php:37 req/MediaFromFtpAdmin.php:59
+#: req/MediaFromFtpAdmin.php:60 req/MediaFromFtpAdmin.php:151
+#: req/MediaFromFtpAdmin.php:200 req/MediaFromFtpAdmin.php:212
+#: req/MediaFromFtpAdmin.php:666 req/MediaFromFtpAdmin.php:929
+#: req/MediaFromFtpAdmin.php:1215
+msgid "Settings"
+msgstr "設定"
